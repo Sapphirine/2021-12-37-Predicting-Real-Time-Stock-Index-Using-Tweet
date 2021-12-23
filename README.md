@@ -9,6 +9,6 @@ To reproduce our results in during training. Please follow the steps below:
 
 To reproduce our results in the actual real-time prediction. Please follow the steps below:
 1. Set up and make kafka and zookeeper running on the clusters your are using
-2. Change time-interval to your choice in the spark_actual, prediction, update_model
-3. Start twitter_client, get_price spark_actual, prediction, update_model simultaneously.
+2. Change time-interval to your choice in the spark_actual, online_prediction, update_model
+3. Start twitter_client, get_price spark_actual, online_prediction, update_model simultaneously.
 4. Run our visualization program to query and see results.
